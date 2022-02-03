@@ -32,7 +32,7 @@ public class Login extends AppCompatActivity {
         setContentView(R.layout.activity_login);
 
         editmail = findViewById(R.id.email);
-        editpw = findViewById(R.id.email);
+        editpw = findViewById(R.id.password);
         btnregister = findViewById(R.id.register);
         btnlogin = findViewById(R.id.login);
 
@@ -55,7 +55,7 @@ public class Login extends AppCompatActivity {
         });
     }
     private void login(String email, String password){
-        progressDialog.show();
+//        progressDialog.show();
         mAuth.signInWithEmailAndPassword(email, password).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
             @Override
             public void onComplete(@NonNull Task<AuthResult> task) {
@@ -68,7 +68,7 @@ public class Login extends AppCompatActivity {
                 }else{
                     Toast.makeText(getApplicationContext(), "Login Gagal", Toast.LENGTH_SHORT).show();
                 }
-                progressDialog.dismiss();
+//                progressDialog.dismiss();
             }
         });
     }
@@ -80,7 +80,7 @@ public class Login extends AppCompatActivity {
     public void onStart(){
         super.onStart();
         FirebaseUser currentuser = mAuth.getCurrentUser();
-        if (currentuser != null){
+        if (currentuser!=null){
             reload();
         }
     }
