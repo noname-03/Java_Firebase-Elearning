@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "734926750380",
+    "project_id": "java-elearning-fbc75",
+    "storage_bucket": "java-elearning-fbc75.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:734926750380:android:a147124ff101a8883c9509",
+        "android_client_info": {
+          "package_name": "com.example.crudfirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "734926750380-3ub9bgsvtbpkv0tuhrftlhg1a70evl4k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.crudfirebase",
+            "certificate_hash": "46ebb05fc1c37a2d051fda9c2f4c767dd7547c87"
+          }
+        },
+        {
+          "client_id": "734926750380-rv49mkrff2ehqap03d835mra1anptl2u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCww6-GL4pJkW-J5kZjoxfWkG07sN7x_dk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "734926750380-rv49mkrff2ehqap03d835mra1anptl2u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

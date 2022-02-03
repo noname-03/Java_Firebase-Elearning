@@ -3,8 +3,17 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/HAH/AndroidStudioProjects/CRUDFirebase/app/src/main/res/drawable/button.xml" value="0.22152777777777777" />
+        <entry key="..\:/Users/HAH/AndroidStudioProjects/CRUDFirebase/app/src/main/res/drawable/gradient.xml" value="0.22152777777777777" />
+        <entry key="..\:/Users/HAH/AndroidStudioProjects/CRUDFirebase/app/src/main/res/drawable/header_background.xml" value="0.23298611111111112" />
+        <entry key="..\:/Users/HAH/AndroidStudioProjects/CRUDFirebase/app/src/main/res/layout-w1240dp/activity_login.xml" value="0.1" />
+        <entry key="..\:/Users/HAH/AndroidStudioProjects/CRUDFirebase/app/src/main/res/layout/activity_directmessage.xml" value="0.1" />
         <entry key="..\:/Users/HAH/AndroidStudioProjects/CRUDFirebase/app/src/main/res/layout/activity_kelas.xml" value="0.10906612133605999" />
+        <entry key="..\:/Users/HAH/AndroidStudioProjects/CRUDFirebase/app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="..\:/Users/HAH/AndroidStudioProjects/CRUDFirebase/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/HAH/AndroidStudioProjects/CRUDFirebase/app/src/main/res/layout/activity_register.xml" value="0.22" />
         <entry key="..\:/Users/HAH/AndroidStudioProjects/CRUDFirebase/app/src/main/res/layout/kelas_item_1.xml" value="0.10906612133605999" />
+        <entry key="..\:/Users/HAH/AndroidStudioProjects/CRUDFirebase/app/src/main/res/menu/navigation_menu.xml" value="0.2222222222222222" />
         <entry key="..\:/Users/think/AndroidStudioProjects/CRUDFirebase/app/src/main/res/drawable/header_background.xml" value="0.2296875" />
         <entry key="..\:/Users/think/AndroidStudioProjects/CRUDFirebase/app/src/main/res/drawable/search_icon_background.xml" value="0.22615384615384615" />
         <entry key="..\:/Users/think/AndroidStudioProjects/CRUDFirebase/app/src/main/res/drawable/trending_background.xml" value="0.22592592592592592" />
