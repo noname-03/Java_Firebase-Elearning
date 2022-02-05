@@ -50,12 +50,12 @@ public class Login extends AppCompatActivity {
             if (editmail.getText().length() > 0 && editpw.getText().length() > 0) {
                 login(editmail.getText().toString(), editpw.getText().toString());
             }else{
-                Toast.makeText(getApplicationContext(), "Wajib Di Isi Semua", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(), "Username dan Password tidak boleh kosong.!", Toast.LENGTH_SHORT).show();
             }
         });
     }
     private void login(String email, String password){
-//        progressDialog.show();
+        progressDialog.show();
         mAuth.signInWithEmailAndPassword(email, password).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
             @Override
             public void onComplete(@NonNull Task<AuthResult> task) {
@@ -63,12 +63,12 @@ public class Login extends AppCompatActivity {
                     if (task.getResult().getUser()!=null){
                         reload();
                     }else{
-                        Toast.makeText(getApplicationContext(), "Login Gagal", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(getApplicationContext(), "email dan password tidak ditemukan.!", Toast.LENGTH_SHORT).show();
                     }
                 }else{
-                    Toast.makeText(getApplicationContext(), "Login Gagal", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getApplicationContext(), "email dan password tidak ditemukan.!", Toast.LENGTH_SHORT).show();
                 }
-//                progressDialog.dismiss();
+                progressDialog.dismiss();
             }
         });
     }
