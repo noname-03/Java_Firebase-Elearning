@@ -1,14 +1,15 @@
 <resources>
-    <string name="app_name">CRUD Firebase</string>
-    <string name="hello">Hello</string>
+    <string name="app_name">E-Learning</string>
+    <string name="hello">Hi, </string>
     <string name="gamtenk">gamtenk</string>
     <string name="serach_elements">serach elements</string>
     <string name="kelas">Kelas</string>
     <string name="mesagge">Mesagge</string>
     <string name="absen">Absen</string>
     <string name="daftar_matkul">Daftar Matkul</string>
-    <string name="trending">TRENDING</string>
-    <string name="dummy_text">Lorem ipsum is simply dummy text of the printing and typesetting industry.</string>
+    <string name="trending">Announcement</string>
+    <string name="dummy_text">Pengumuman Bagian Keuangan Terkait UAS
+Rabu, 26 Januari 2022, Dipublish oleh : Febryan Ervan (Biro Administrasi Akademi/BAAK UCIC)</string>
     <string name="home">Home</string>
     <string name="notification">Notification</string>
     <string name="profile">Profile</string>

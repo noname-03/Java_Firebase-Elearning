@@ -54,7 +54,7 @@ public class MainActivity extends AppCompatActivity {
         absen.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent p = new Intent(getApplicationContext(),Absensi.class);
+                Intent p = new Intent(getApplicationContext(), ViewUser.class);
                 startActivity(p);
             }
         });

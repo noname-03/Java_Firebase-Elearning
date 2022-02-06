@@ -18,17 +18,18 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_above="@+id/image"
-            android:layout_marginBottom="12dp"
             android:layout_centerHorizontal="true"
-            android:text="Selamat Datang"
+            android:layout_marginBottom="12dp"
+            android:text="Welcome"
             android:textSize="20dp"
             android:textStyle="bold" />
+
         <ImageView
             android:id="@+id/image"
-            android:layout_width="200dp"
+            android:layout_width="250dp"
             android:layout_height="150dp"
             android:layout_centerInParent="true"
-            android:background="@drawable/welcome1"></ImageView>
+            android:background="@drawable/logo"></ImageView>
     </RelativeLayout>
 
     <LinearLayout
@@ -64,7 +65,7 @@
             android:layout_height="wrap_content"
             android:textStyle="bold"
             android:textSize="15dp"
-            android:text="password"
+            android:text="Password"
             android:textColor="#fff"/>
 
         <EditText
@@ -91,7 +92,7 @@
                 android:layout_height="70dp"
                 android:background="@drawable/button"
                 android:padding="8dp"
-                android:text="Masuk"
+                android:text="Login"
                 android:textColor="#FFF"
                 android:textStyle="bold" />
             <RelativeLayout
@@ -104,7 +105,7 @@
                 android:layout_height="70dp"
                 android:background="@drawable/button"
                 android:padding="6dp"
-                android:text="Daftar"
+                android:text="Register"
                 android:textColor="#fff"
                 android:textStyle="bold" />
 

@@ -1,11 +1,107 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".directmessage">
+    android:orientation="vertical"
+    tools:context=".directmessage"
+    android:background="@color/background">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="55dp"
+            android:background="@color/utama"/>
+
+        <TextView
+            android:id="@+id/textLecture"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="8dp"
+            android:text="Mr. Lecture"
+            android:layout_marginLeft="17dp"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textLecture"
+            android:layout_marginLeft="17dp"
+            android:text="Online"
+            android:textColor="#4CAF50"
+            android:textSize="10sp" />
+
+
+        <TextView
+            android:id="@+id/tglChat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="9 Februari 2022"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="75dp"/>
+
+        <TextView
+            android:layout_width="190dp"
+            android:layout_height="64dp"
+            android:layout_below="@id/tglChat"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/background_chat"
+            android:paddingLeft="15dp"
+            android:paddingTop="15dp"
+            android:text="Hi Son, any difficulty in Today's material"
+            android:textColor="@color/white" />
+
+        <ImageView
+            android:id="@+id/imgChat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_account_circle"
+            android:layout_below="@id/tglChat"
+            android:layout_marginLeft="17dp"
+            android:layout_marginTop="50dp" />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/chat2"
+            android:layout_width="190dp"
+            android:layout_height="55dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="17dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/white_rectangle_background"
+            android:paddingLeft="15dp"
+            android:paddingTop="15dp"
+            android:text="I feel no Sir, so far so good"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="53dp"
+            android:layout_height="47dp"
+            android:layout_below="@id/chat2"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="17dp"
+            android:paddingLeft="15dp"
+            android:paddingTop="15dp"
+            android:text="Seen"
+            android:textColor="#9B9B9B" />
+
+
+    </RelativeLayout>
 
 
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

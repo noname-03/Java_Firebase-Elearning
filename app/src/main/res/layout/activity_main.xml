@@ -162,7 +162,7 @@
                     android:layout_margin="8dp"
                     android:contentDescription="@string/app_name"
                     android:padding="8dp"
-                    android:src="@drawable/dm"
+                    android:src="@drawable/direct"
                     tools:ignore="InvalidId" />
 
                 <TextView
@@ -197,13 +197,13 @@
                     android:layout_margin="8dp"
                     android:contentDescription="@string/app_name"
                     android:padding="8dp"
-                    android:src="@drawable/absen"/>
+                    android:src="@drawable/absence"/>
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:text="Absence"
+                    android:text="Absent"
                     android:textColor="@color/accent"
                     android:textSize="20sp"
                     android:textStyle="bold"/>
@@ -232,7 +232,7 @@
                     android:layout_margin="8dp"
                     android:contentDescription="@string/app_name"
                     android:padding="8dp"
-                    android:src="@drawable/list"/>
+                    android:src="@drawable/logout"/>
 
                 <TextView
                     android:layout_width="match_parent"
@@ -269,7 +269,7 @@
                     android:textSize="16sp"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintTop_toTopOf="parent"/>
-                
+
                 <ImageView
                     android:layout_width="30dp"
                     android:layout_height="30dp"

@@ -1,147 +1,71 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/background"
-    tools:context=".kelas">
-
-    <View
-        android:id="@+id/viewHeaderKelas"
-        android:layout_width="match_parent"
-        android:layout_height="@dimen/_125sdp"
-        android:background="@color/utama"
-        app:layout_constraintTop_toTopOf="parent"/>
-
-    <TextView
-        android:id="@+id/textTitle"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="@dimen/_16sdp"
-        android:layout_marginLeft="@dimen/_16sdp"
-        android:layout_marginTop="@dimen/_16sdp"
-        android:text="Class"
-        android:textColor="@color/white"
-        android:textSize="@dimen/_20ssp"
-        android:textStyle="bold"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"/>
-
-    <androidx.appcompat.widget.AppCompatImageView
-        android:layout_width="@dimen/_26sdp"
-        android:layout_height="@dimen/_26sdp"
-        android:layout_marginEnd="@dimen/_16sdp"
-        android:layout_marginRight="@dimen/_16sdp"
-        android:src="@drawable/ic_search"
-        app:layout_constraintBottom_toBottomOf="@id/textTitle"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="@id/textTitle"
-        app:tint="@color/white"/>
-
-    <com.google.android.material.card.MaterialCardView
-        android:id="@+id/cardHeader"
+    tools:context=".EditorAbsensi">
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="@dimen/_16sdp"
-        android:layout_marginEnd="@dimen/_16sdp"
-        app:cardBackgroundColor="@color/white"
-        app:cardCornerRadius="@dimen/_16sdp"
-        app:layout_constraintBottom_toBottomOf="@id/viewHeaderKelas"
-        app:layout_constraintTop_toBottomOf="@id/viewHeaderKelas">
-
-        <androidx.constraintlayout.widget.ConstraintLayout
+        android:orientation="vertical"
+        android:padding="14dp">
+        <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:padding="@dimen/_14sdp">
-
-            <TextView
-                android:id="@+id/textMhs"
-                android:layout_width="wrap_content"
+            app:boxBackgroundColor="@color/white"
+            app:boxBackgroundMode="outline">
+            <EditText
+                android:id="@+id/txtNama"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Jangan Lupa Absen"
-                android:textColor="@color/black"
-                android:textSize="@dimen/_14ssp"
-                android:textStyle="bold"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"/>
-
-            <TextView
-                android:paddingTop="20dp"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:text="Jangan Lupa Absen Ya"
-                android:textSize="@dimen/_23sdp"
-                android:textStyle="bold"/>
-
-        </androidx.constraintlayout.widget.ConstraintLayout>
-
-    </com.google.android.material.card.MaterialCardView>
-
-    <com.google.android.material.card.MaterialCardView
-        android:id="@+id/cardContent"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="@dimen/_16sdp"
-        android:layout_marginEnd="@dimen/_16sdp"
-        app:cardBackgroundColor="@color/white"
-        app:cardCornerRadius="@dimen/_16sdp"
-        app:layout_constraintTop_toBottomOf="@id/viewHeaderKelas">
-
-        <androidx.constraintlayout.widget.ConstraintLayout
+                android:inputType="textPersonName"
+                android:hint="Nama Lengkap"/>
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
-            android:layout_height="600dp"
-            android:padding="@dimen/_14sdp">
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent">
-
-            </LinearLayout>
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            app:boxBackgroundColor="@color/white"
+            app:boxBackgroundMode="outline">
             <EditText
                 android:id="@+id/txtNim"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="44dp"
-                android:ems="10"
-                android:hint="Masukan Nim"
-                android:inputType="textPersonName"/>
-
+                android:inputType="textPersonName"
+                android:hint="Nim"/>
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            app:boxBackgroundColor="@color/white"
+            app:boxBackgroundMode="outline">
             <EditText
-                android:paddingTop="60dp"
-                android:id="@+id/txtNama"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:hint="Nama Lengkap"
-                android:inputType="textPersonName" />
-
-            <EditText
-                android:paddingTop="120dp"
                 android:id="@+id/txtPel"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Masukan Nama Pelajaran"
-                android:inputType="textPersonName" />
-
+                android:inputType="textPersonName"
+                android:hint="Pelajaran"/>
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            app:boxBackgroundColor="@color/white"
+            app:boxBackgroundMode="outline">
             <EditText
-                android:paddingTop="180dp"
                 android:id="@+id/txtPer"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Masukan Pertemuan Keberapa"
-                android:inputType="textPersonName" />
-
-            <Button
-                android:id="@+id/View"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="180dp"
-                android:text="View"
-                app:layout_constraintBottom_toBottomOf="parent"
-                tools:layout_editor_absoluteX="301dp" />
-
-        </androidx.constraintlayout.widget.ConstraintLayout>
-
-    </com.google.android.material.card.MaterialCardView>
-
-</androidx.constraintlayout.widget.ConstraintLayout>
+                android:inputType="textPersonName"
+                android:hint="Pelajaran"/>
+        </com.google.android.material.textfield.TextInputLayout>
+        <Button
+            android:id="@+id/btn_save"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Simpan" />
+    </LinearLayout>
+</ScrollView>

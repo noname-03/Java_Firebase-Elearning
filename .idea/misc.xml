@@ -3,17 +3,23 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/HAH/AndroidStudioProjects/CRUDFirebase/app/src/main/res/drawable/background_chat.xml" value="0.22152777777777777" />
         <entry key="..\:/Users/HAH/AndroidStudioProjects/CRUDFirebase/app/src/main/res/drawable/button.xml" value="0.22152777777777777" />
         <entry key="..\:/Users/HAH/AndroidStudioProjects/CRUDFirebase/app/src/main/res/drawable/gradient.xml" value="0.22152777777777777" />
         <entry key="..\:/Users/HAH/AndroidStudioProjects/CRUDFirebase/app/src/main/res/drawable/header_background.xml" value="0.23298611111111112" />
         <entry key="..\:/Users/HAH/AndroidStudioProjects/CRUDFirebase/app/src/main/res/layout-w1240dp/activity_login.xml" value="0.1" />
-        <entry key="..\:/Users/HAH/AndroidStudioProjects/CRUDFirebase/app/src/main/res/layout/activity_absensi.xml" value="0.18" />
+        <entry key="..\:/Users/HAH/AndroidStudioProjects/CRUDFirebase/app/src/main/res/layout/activity_absensi.xml" value="0.16" />
         <entry key="..\:/Users/HAH/AndroidStudioProjects/CRUDFirebase/app/src/main/res/layout/activity_directmessage.xml" value="0.1" />
+        <entry key="..\:/Users/HAH/AndroidStudioProjects/CRUDFirebase/app/src/main/res/layout/activity_editor.xml" value="0.21284722222222222" />
         <entry key="..\:/Users/HAH/AndroidStudioProjects/CRUDFirebase/app/src/main/res/layout/activity_kelas.xml" value="0.15" />
         <entry key="..\:/Users/HAH/AndroidStudioProjects/CRUDFirebase/app/src/main/res/layout/activity_login.xml" value="0.18" />
-        <entry key="..\:/Users/HAH/AndroidStudioProjects/CRUDFirebase/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/HAH/AndroidStudioProjects/CRUDFirebase/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/Users/HAH/AndroidStudioProjects/CRUDFirebase/app/src/main/res/layout/activity_register.xml" value="0.22" />
+        <entry key="..\:/Users/HAH/AndroidStudioProjects/CRUDFirebase/app/src/main/res/layout/activity_view_absen.xml" value="0.5" />
+        <entry key="..\:/Users/HAH/AndroidStudioProjects/CRUDFirebase/app/src/main/res/layout/activity_view_user.xml" value="0.25" />
         <entry key="..\:/Users/HAH/AndroidStudioProjects/CRUDFirebase/app/src/main/res/layout/kelas_item_1.xml" value="0.10906612133605999" />
+        <entry key="..\:/Users/HAH/AndroidStudioProjects/CRUDFirebase/app/src/main/res/layout/row_absen.xml" value="0.10906612133605999" />
+        <entry key="..\:/Users/HAH/AndroidStudioProjects/CRUDFirebase/app/src/main/res/layout/row_user.xml" value="0.10906612133605999" />
         <entry key="..\:/Users/HAH/AndroidStudioProjects/CRUDFirebase/app/src/main/res/menu/navigation_menu.xml" value="0.2222222222222222" />
         <entry key="..\:/Users/think/AndroidStudioProjects/CRUDFirebase/app/src/main/res/drawable/header_background.xml" value="0.2296875" />
         <entry key="..\:/Users/think/AndroidStudioProjects/CRUDFirebase/app/src/main/res/drawable/search_icon_background.xml" value="0.22615384615384615" />
